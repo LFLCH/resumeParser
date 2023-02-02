@@ -16,7 +16,7 @@ namespace Tools
     class JsonConverter
     {
         public static string convertToJsonFormat(Dictionary<string,string> d){
-           return JsonConvert.SerializeObject(d);
+           return JsonConvert.SerializeObject(d,Formatting.Indented);
         }
     }
 }
