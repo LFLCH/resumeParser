@@ -11,7 +11,7 @@ namespace Tools
     class PDFReader
     {
 
-        public static Dictionary<string,string> read(string filepath, string[] categories)
+        public static Dictionary<string,string> read(string filepath)
         {
 
             PdfDocument document = PdfDocument.Open(@filepath);
